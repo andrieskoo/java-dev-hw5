@@ -1,5 +1,10 @@
 package org.example;
 
+/**
+ * Ітеративний варіант:
+ * Часова складність: O(n)
+ * Просторова складність: O(1)
+ */
 public class IterativeFibonacci {
     public static long iterativeFibonacci(int n) {
         if (n <= 1) {

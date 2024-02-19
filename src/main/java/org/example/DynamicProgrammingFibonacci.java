@@ -3,6 +3,11 @@ package org.example;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Варіант динамічного програмування:
+ * Часова складність: O(n)
+ * Просторова складність: O(n)
+ */
 public class DynamicProgrammingFibonacci {
     private static final Map<Integer, Long> memoizMap = new HashMap<>();
 
